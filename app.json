@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "FlexSpeak",
+    "slug": "flexspeak-mobile-expo-app",
+    "scheme": "flexspeak-mobile-expo-app",
+    "version": "1.0.97",
+    "orientation": "landscape",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.flexspeak",
+      "icon": "./assets/icon.png",
+      "buildNumber": "40",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "apiUrl": "http://Flexspeakapi-env-1.eba-znzqd43v.us-east-1.elasticbeanstalk.com/",
+      "eas": {
+        "projectId": "908e2a29-afaf-4165-b355-5305823ff033"
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ]
+  }
+}

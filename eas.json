@@ -1,0 +1,39 @@
+{
+  "cli": {
+    "version": ">= 3.6.1",
+    "promptToConfigurePushNotifications": false
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium"
+      }
+    },
+    "production": {
+      "env": {
+        "APP_ENV": "production"
+      },
+      "ios": {
+        "resourceClass": "m-medium"
+      },
+      "releaseChannel": "production"
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "michaeljamieson10@gmail.com",
+        "ascAppId": "1673066116",
+        "appleTeamId": "MS67R88UW7"
+      }
+    }
+  }
+}
